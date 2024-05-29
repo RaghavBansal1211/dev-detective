@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=League+Spartan:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+      <div class="container">
+        <div class="heading">
+            <h1>DevDetective</h1>
+
+            <div class="mode">
+                <p display-mode></p>
+                <img mode-img/>
+            </div>
+        </div>
+        <div errormsg></div>
+
+        <div class="data-input">
+            <div class="inp-cont">
+                <img src="./Images/search-icon.svg" alt="" height="20px" width="20px" glass/>
+                <input type="text"  user-name placeholder="Enter a Github username..." class="user-name"/>
+                <p clear>x</p>
+            </div>
+            <button search class="btn">Search</button>
+             
+        </div>
+
+        <div class="info">
+            <div class="content">
+                
+                    <div class="top">
+                        <img user-img>
+                        <div class="right">
+                            <div class="intro">
+                                <p display-user-name></p>
+                                <p date-of-join></p>
+                                <a href="" profile-link></a>
+                            </div> 
+                            
+                        </div>
+                        
+                    </div>   
+                    <div class="bio-parent">
+                        <div class="bio"></div>
+                    </div>
+                    
+
+                    <div class="parent">
+                        <div class="mid">
+    
+                            <div class="parameter">
+                                <p class="title">Repos</p>
+                                <p repo-count class="det"></p>
+                            </div>
+            
+                            <div class="parameter">
+                                <p class="title">Followers</p>
+                                <p follower-count class="det"></p>
+                            </div>
+            
+                            <div class="parameter">
+                                <p class="title">Following</p>
+                                <p following-count class="det"></p>
+                            </div>
+                        </div>
+        
+        
+                        <div class="bottom">
+                            <div class="up">
+    
+                                <div class="location">
+                                    <img src="./Images/location-icon.svg" alt="" class="icons">
+                                    <p location-info></p>
+                                </div>
+                
+                                <div class="link">
+                                    <img src="./Images/website-icon.svg" alt="" class="icons">
+                                    <a bio-info></a>
+                                </div>
+                            </div>
+    
+                            <div class="down">
+                                <div class="twitter">
+                                    <img src="./Images/twitter-icon.svg" alt="" class="icons">
+                                    <a twitter-info></a>
+                                </div>
+                
+                                <div class="building">
+                                    <img src="./Images/company-icon.svg" alt="" class="icons">
+                                    <p building-info></p>
+                                </div>
+                            </div>
+                        </div>  
+
+                    </div>
+                    
+                    
+                    
+            </div>
+        </div>
+      </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
