@@ -1,0 +1,1 @@
+This project is made using github API which takes username as a parameter and provides all the public information about that user.The website also have some features like dark mode and it responsive as well.
